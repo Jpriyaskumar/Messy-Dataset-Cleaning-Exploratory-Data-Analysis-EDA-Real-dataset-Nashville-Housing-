@@ -1,0 +1,38 @@
+#  Messy Dataset Cleaning & EDA — Nashville Housing
+
+This project demonstrates how to clean and analyze a messy real-world dataset using Python. The dataset contains housing records from Nashville, Tennessee, and includes common data quality issues such as missing values, inconsistent formatting, duplicate entries, and unstructured text fields.
+
+---
+
+##  Dataset
+- **Source**: [Nashville Housing Data](https://www.kaggle.com/datasets/tmthyjames/nashville-housing-data)
+- **File**: `data/nashville_housing.csv`
+
+---
+
+##  Python Libraries Used
+- pandas
+- numpy
+- matplotlib
+
+---
+
+##  Cleaning Steps
+- Column name standardization
+- Handling missing values
+- Date conversion (`sale_date`)
+- Removing duplicates
+- Text cleanup (`owner_name`, `property_address`, `land_use`)
+
+---
+
+##  EDA Visuals
+- Bar chart: Property type distribution
+- Pie chart: Top 5 land use categories
+- Histogram: Sale price distribution
+- Correlation heatmap
+- Year-wise sale trend
+
+---
+
+## 📁 Project Structure
